@@ -1,0 +1,49 @@
+ <form action = "{{ url_for('predict')}}" method="post">
+    <div class="form_enter">
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Pregnancies</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" name="Pregnancies"
+          placeholder="Enter no.of Pregnancies">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Glucose</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" name="Glucose" placeholder="Enter Glucose">
+
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput3" class="form-label">BloodPressure</label>
+        <input type="text" class="form-control" id="formGroupExampleInput3" name="BloodPressure"
+          placeholder="Enter BloodPressure">
+
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput4" class="form-label">SkinThickness</label>
+        <input type="text" class="form-control" id="formGroupExampleInput4" name="SkinThickness"
+          placeholder="Enter SkinThickness">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput5" class="form-label">Insulin</label>
+        <input type="text" class="form-control" id="formGroupExampleInput5" name="Insulin" placeholder="Enter Insulin">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput6" class="form-label">BMI</label>
+        <input type="text" class="form-control" id="formGroupExampleInput6" name="BMI" placeholder="Enter BMI">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput7" class="form-label">DiabetesPedigreeFunction</label>
+        <input type="text" class="form-control" id="formGroupExampleInput7" name="DiabetesPedigreeFunction"
+          placeholder="Enter DiabetesPedigreeFunction">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput8" class="form-label">Age</label>
+        <input type="text" class="form-control" id="formGroupExampleInput8" name="Age" placeholder="Enter Age">
+        <br>
+      </div>
+
+
+
+    </div>
+    <center>
+      <button type="button" class="btn btn-primary">Predict</button>
+    </center>
+  </form>
